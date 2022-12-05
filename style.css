@@ -1,0 +1,54 @@
+.parent {
+    height: 400px;
+    background-color: rgb(72, 72, 248);
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.child {
+    height: 100px;
+    background-color: rgb(33, 33, 89);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.child:hover {
+    background-color: aliceblue;
+    color: rgb(33, 33, 89);
+    transition: background-color 3s ease, color 3s;
+}
+.child2 {
+    height: 100px;
+    background-color: rgb(139, 139, 147);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(10, 11, 11);
+}
+.child2:hover {
+    background-color: rgb(10, 11, 11);
+    color: rgb(139, 139, 147);
+    transition: background-color 3s ease, color 3s;
+}
+.child3 {
+    height: 400px;
+    background-color: rgb(90, 90, 155);
+    position: absolute;
+    right: 0;
+    width: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.child3:hover {
+    background-color: aliceblue;
+    color: rgb(90, 90, 155);
+    transition: background-color 3s ease, color 3s, height 5s ease;
+    height: 100px;
+}
